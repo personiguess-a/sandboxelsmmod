@@ -53,7 +53,14 @@ elements.water.reactions.soap = { "elem1":null, "elem2":"soapy_water" }
 
 // Run after all mods are loaded, for cross-mod compatibility
 runAfterLoad(function() {
-    // Your code here
+    elements.Ghire = {
+    color: "#403066",
+    behavior: behaviors.GAS,
+    category: "gases",
+    state: "gas"
+    hidden:false
+    
+};// Your code here
     console.log("Hello World!");
 });
 
@@ -68,4 +75,4 @@ if (enabledMods.includes("mods/test.js")) {
 // Creating eLists:
 eLists.CONDIMENT = ["ketchup","melted_cheese","mayo"];
 // Adding elements to eLists:
-eLists.CONDIMENT.push("honey");
+eLists.CONDIMENT.push("ghire");
