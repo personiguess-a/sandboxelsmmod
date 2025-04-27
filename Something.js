@@ -4,6 +4,7 @@ elements.Ghire = {
     behavior: behaviors.GAS,
     category: "gases",
     state: "gas"
+    hidden:false
     
 };
 
