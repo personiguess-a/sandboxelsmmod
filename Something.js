@@ -3,9 +3,8 @@ elements.Ghire = {
     color: "#403066",
     behavior: behaviors.GAS,
     category: "gases",
-    viscosity: 100000,
-    state: "gas",
-    density: 720,
+    state: "gas"
+    
 };
 
 // Changing existing elements:
